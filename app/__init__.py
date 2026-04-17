@@ -11,6 +11,7 @@ def create_app():
 
     db.init_app(app)
 
+
     from app.routes.auth import auth_bp
     from app.routes.tasks import tasks_bp
     app.register_blueprint(tasks_bp)
