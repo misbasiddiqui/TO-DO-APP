@@ -1,0 +1,139 @@
+
+    body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* FLASH */
+.flash.success { color: green; }
+.flash.error { color: red; }
+.flash.info { color: blue; }
+
+/* LOGIN */
+.login-box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+.login-box input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login-box button {
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+/* TASK BOX */
+.task-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+/* FORM */
+.task-form {
+    display: flex;
+    gap: 10px;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 10px;
+}
+
+/* TABLE */
+.task-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* BUTTONS */
+.clear-btn {
+    padding: 8px 15px;
+    background: red;
+    color: white;
+    border: none;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+/* STATUS BADGE */
+.badge {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+.badge.pending { background: orange; }
+.badge.completed { background: green; }
+.badge.working { background: blue; }
+
+
